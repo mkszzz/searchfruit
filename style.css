@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d36f6f;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3rem;
+}
+
+.search input, .search button{
+    border: 0;
+}
+
+.search{
+    background: white;
+    border-radius: 5rem;
+    padding: 0.75rem;
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f0f0f0;
+}
+
+.search input {
+    width: 22rem;
+    height: 1rem;
+    text-indent: 0.7rem;
+    font-size: 1.25em;
+}
+
+input:focus-visible {
+    outline: 0;
+}
